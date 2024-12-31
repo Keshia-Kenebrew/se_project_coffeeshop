@@ -1,3 +1,2 @@
-.page {
-    font-family: Inter,Arial, sans-serif;
-}
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
