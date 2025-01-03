@@ -42,7 +42,7 @@
   font-family: "Noto Serif";
   font-style: italic;
   font-size: 60px;
- line-height: 72px;
+  line-height: 72px;
 }
 .header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -53,7 +53,7 @@
 }
 
 .header__span-accent {
-  color: #3f96f3
+  color: #3f96f3;
   display: block;
 }
 .header__footer {
@@ -149,7 +149,6 @@
 .form__input {
   display: block;
   width: 100%;
-
 }
 
 .form__button {
