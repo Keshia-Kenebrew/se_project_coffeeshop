@@ -13,6 +13,9 @@
   display: flex;
   flex-direction: column;
   background-image: url(/images/images/background_header.svg);
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
 }
 
 .header__image {
@@ -30,11 +33,16 @@
   font-size: 60px;
   line-height: 72px;
   max-width: 729px;
+  letter-spacing: -0.6px;
 }
 
 .header__span-accent {
   color: #3f96f3;
   display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-size: 60px;
+ line-height: 72px;
 }
 .header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -44,14 +52,23 @@
   max-width: 683px;
 }
 
+.header__span-accent {
+  color: #3f96f3
+  display: block;
+}
 .header__footer {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  /*TODO: Align address to bottom of container*/
 }
 .header__paragraph {
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 .nav {
   display: flex;
@@ -61,6 +78,8 @@
 .nav__logo {
   position: relative;
   left: -50px;
+  width: 105px;
+  height: 30px;
 }
 
 .nav__links {
@@ -71,12 +90,16 @@
   margin: 0;
 }
 
-/*TODO: Style nav__link fonts*/
+.nav__link {
+  color: #000;
+  text-decoration: none;
+}
 
 .recipes {
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
+  background-image: url(/images/images/background_recipes.svg);
 }
 
 .recipes__title {
@@ -96,4 +119,40 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
 }
