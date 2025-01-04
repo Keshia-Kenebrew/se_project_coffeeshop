@@ -2,7 +2,10 @@
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
-  background-image: url(/images/images/background_recipes.svg);
+  background-image: url(../images/images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .recipes__title {
@@ -38,7 +41,7 @@
 .reservation {
   padding: 100px 0 120px;
   background-color: #d9e7ff;
-  background-image: url(/images/images/background_reservation.svg);
+  background-image: url(../images/images/background_reservation.svg);
 }
 
 .reservation__title {
