@@ -12,6 +12,7 @@
   max-height: 800px;
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .header__image {
@@ -19,6 +20,7 @@
   top: 124px;
   right: 5px;
   width: 646px;
+  z-index: -1;
   height: 568px;
 }
 
@@ -35,7 +37,7 @@
 .header__span-accent {
   color: #3f96f3;
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -56,10 +58,11 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: bottom;
 }
 .header__paragraph {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
