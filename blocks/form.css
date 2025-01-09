@@ -17,6 +17,9 @@
   box-sizing: border-box;
   margin: 8px 0 32px;
   border: 1px solid #838383;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
 }
 
 .form__button {
@@ -29,9 +32,18 @@
   color: #fff;
   cursor: pointer;
   transition: background-color 0.5s;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.form__button:hover {
+.form__label {
+  font-family: "Inter", Arial, sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px
+}
+}
+.form .form__button:hover {
   background-color: #3f96f3;
 }
 
