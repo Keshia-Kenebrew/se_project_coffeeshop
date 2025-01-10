@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 720px;
   max-height: 800px;
   height: 100vh;
   position: relative;
@@ -50,16 +49,13 @@
   max-width: 683px;
 }
 
-.header__span-accent {
-  color: #3f96f3;
-  display: block;
-}
 .header__footer {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  align-items: bottom;
+  align-items: end;
 }
+
 .header__paragraph {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;

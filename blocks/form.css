@@ -38,12 +38,12 @@
 
 .form__label {
   font-family: "Inter", Arial, sans-serif;
- font-weight: 500;
- font-size: 16px;
- line-height: 20px
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
-}
-.form .form__button:hover {
+
+.form__button:hover {
   background-color: #3f96f3;
 }
 
